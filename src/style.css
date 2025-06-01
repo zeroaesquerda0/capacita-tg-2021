@@ -248,35 +248,34 @@ section h2 {
 }
 
 .about-content {
-    display: flex;
-    gap: 40px;
-    align-items: flex-start;
-}
-
-.about-image-left {
-    flex: 0 0 40%;
-}
-
-.about-img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .about-text {
-    flex: 1;
+    text-align: center;
 }
 
 .about-image-top {
     margin-bottom: 20px;
-    text-align: center;
 }
 
 .logo-img {
     max-width: 200px;
     height: auto;
     margin-bottom: 20px;
+}
+
+.about-image-left {
+    margin-bottom: 30px;
+}
+
+.about-img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .about-text p {
@@ -512,15 +511,6 @@ footer {
     .special-cards-container .course-card {
         min-width: 280px;
         flex: 0 1 calc(50% - 15px);
-    }
-
-    .about-content {
-        flex-direction: column;
-    }
-
-    .about-image-left {
-        flex: 0 0 100%;
-        margin-bottom: 30px;
     }
 
     .hero h2 {
