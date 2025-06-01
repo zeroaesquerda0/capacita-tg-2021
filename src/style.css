@@ -261,7 +261,7 @@ section h2 {
 }
 
 .logo-img {
-    max-width: 200px;
+    max-width: 150px;
     height: auto;
     margin-bottom: 20px;
 }
@@ -272,8 +272,8 @@ section h2 {
 
 .about-img {
     width: 100%;
-    max-height: 300px;
-    object-fit: cover;
+    max-height: 200px;
+    object-fit: contain;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
@@ -283,6 +283,7 @@ section h2 {
     font-size: 1.1rem;
     color: #333;
     text-align: justify;
+    padding: 0 15px;
 }
 
 .about-text p strong {
